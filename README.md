@@ -49,3 +49,25 @@ git remote add origin https://github.com/kashiftriffort/simple-dvc-demo.git
 git branch -M main
 git push origin main
 ```
+
+tox command -
+```bash
+tox
+```
+for rebuilding -
+```bash
+tox -r
+```
+pytest command -
+```bash
+pytest -v
+```
+setup commands -
+```bash
+pip install -e .
+```
+
+build you own package commands -
+```bash
+python setup.py sdist bdist wheel
+```
