@@ -2,7 +2,6 @@
 # train algo
 # save the metrices, params
 import os
-import warnings
 import sys
 import pandas as pd
 import numpy as np
