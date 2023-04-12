@@ -47,14 +47,14 @@ stages:
     params:
       params.yaml:
         estimators.alpha: 0.7
-        estimators.l1_ratio: 0.3
+        estimators.l1_ratio: 0.2
     outs:
     - path: report/params.json
-      md5: 9bc0f140682499044934f726648a4057
+      md5: a00e5aa4c06cc1b18781592be1f07cd7
       size: 41
     - path: report/scores.json
-      md5: ffaadf472e0b8c11047e755b0ceca133
+      md5: 38ea699aed60b616fd1b1e13d70c6a4c
       size: 96
     - path: saved_models/model.joblib
-      md5: a2ed193e89f601f931b71dd069a988a1
+      md5: dff5c5d6a9b0b1379ee50c9de56131e0
       size: 1198
